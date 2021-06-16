@@ -1,0 +1,61 @@
+# sbt
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+project/project/
+project/target/
+.history
+.cache
+.lib/
+.bsp/
+
+# intellij idea
+*.log
+*.iml
+*.ipr
+*.iws
+.idea/
+.idea_modules/
+
+# vs code
+.vscode
+
+# Metals
+.metals
+.bloop
+project/**/metals.sbt
+
+# vim
+*.sw?
+
+# eclipse
+build/
+.classpath
+.project
+.settings
+.worksheet
+
+# sublime
+*.sublime-workspace
+*.sublime-project
+
+# ensime
+.ensime
+.ensime_lucene/
+.ensime_cache/
+
+# emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# mac
+.DS_Store
